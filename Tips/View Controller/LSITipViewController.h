@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@class LSITipController;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSITipViewController : UIViewController
 
+// IBOutlets here would be public api's
+
+//- (void)calculateTip;
+@property LSITipController *tipController;
 @end
 
 NS_ASSUME_NONNULL_END
